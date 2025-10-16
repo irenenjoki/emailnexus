@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Policy Renewal Reminder</title>
+  <style>
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background: linear-gradient(135deg, #e8f0ff, #ffffff);
+      margin: 0;
+      padding: 50px 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 700px;
+      background: #ffffff;
+      margin: auto;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+      border: 1px solid #e0e6f0;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .header {
+      background: linear-gradient(90deg, #003d99, #007bff);
+      text-align: center;
+      color: #fff;
+      padding: 40px 30px;
+      position: relative;
+    }
+
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, #ffce00, #ffa500);
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .header p {
+      font-size: 15px;
+      opacity: 0.9;
+    }
+
+    .content {
+      padding: 40px 50px;
+      font-size: 15px;
+      line-height: 1.8;
+      background: #fafcff;
+    }
+
+    .content p {
+      margin: 15px 0;
+    }
+
+    .highlight {
+      color: #003d99;
+      font-weight: 600;
+    }
+
+    .cta {
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+
+    .button {
+      background: linear-gradient(90deg, #003d99, #007bff);
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 40px;
+      border-radius: 50px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      box-shadow: 0 6px 16px rgba(0, 74, 173, 0.25);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      display: inline-block;
+    }
+
+    .button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0, 74, 173, 0.3);
+      background: linear-gradient(90deg, #002b73, #0056d6);
+    }
+
+    .divider {
+      height: 1px;
+      background: #e0e6f0;
+      margin: 20px 0;
+    }
+
+    .footer {
+      background: #003d99;
+      color: #ffffff;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+      position: relative;
+    }
+
+    .footer p {
+      margin: 8px 0;
+    }
+
+    .social-icons {
+      margin: 10px 0 15px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      width: 34px;
+      height: 34px;
+      line-height: 34px;
+      margin: 0 6px;
+      border-radius: 50%;
+      background: #ffffff20;
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      background: #fff;
+      color: #003d99;
+    }
+
+    .footer small {
+      opacity: 0.8;
+      font-size: 12px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🚘 Motor Insurance Renewal Alert</h1>
+      <p>Ensure your coverage stays uninterrupted and worry-free</p>
+    </div>
+
+    <div class="content">
+      <p>Dear <strong>[Client Name]</strong>,</p>
+
+      <p>Your motor insurance policy with <span class="highlight">[Underwriter Name]</span> is approaching renewal on <span class="highlight">[Renewal Date]</span>.</p>
+
+      <p>Please take a moment to review your current cover and confirm it meets your needs. Should you wish to make any adjustments or discuss your options, contact us before <span class="highlight">[Renewal Date]</span>.</p>
+
+      <p>Renewing is easy! Simply reply to this email, call us at <span class="highlight">[Phone Number]</span>, or click below to renew online in seconds:</p>
+
+      <div class="cta">
+        <a href="https://nexus.ke/" class="button">Renew My Policy Now</a>
+      </div>
+
+      <div class="divider"></div>
+
+      <p>Thank you for trusting <strong>[Intermediary Name]</strong> with your insurance needs. We appreciate your loyalty and look forward to another year of serving you.</p>
+
+      <p>Warm regards,<br>
+      <strong>The [Intermediary Name] Team</strong></p>
+    </div>
+
+    <div class="footer">
+      <div class="social-icons">
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p>&copy; [Year] <strong>[Intermediary Name]</strong></p>
+      <small>All rights reserved | Visit us at <a href="https://nexus.ke//" style="color:#ffce00; text-decoration:none;">[NEXUS]</a></small>
+    </div>
+  </div>
+</body>
+</html>
